@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  background: url(https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcGMHIhje8KPG3LmxBiZOt5nbCqsASnuxQXMEP1KU_8ZPzKNMwq9pUchmZPOKx0ZYA4sCM0qbAMdoKFqSjqaJBK9Pe7HCJr.OhLuy8tNaOayph_vk6QGlDGfsDmrIVpF2QeS1TkN1q19OHyYsKwHPyMOWrbD52rvRQqRC7BjV2kbU-&h=1080&w=1920&format=jpg) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: blue;
+  box-shadow: 0 0 1rem blue;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color:blue;
+}
